@@ -22,6 +22,15 @@ body{
 
 }
 
+.headings{
+    margin-bottom: 20px;
+}
+
+.content{
+    margin: 0px 20px;
+    margin-bottom: 30px;
+    text-align: justify;
+}
 
 
 /* =================== Navigation Bar =================== */
@@ -97,17 +106,12 @@ body{
     background-color: rgb(240, 138, 138);
 }
 
-.eduInfo{
-    margin: 20px;
-    width: fit-content;
-    text-align: justify;
-}
-
 .eduInfo h3{
     border-bottom: 2px solid #0e0e0e;
     margin-bottom: 10px;
     padding: 2px;
 }
+
 
 /* =================== Skills=================== */
 
@@ -127,6 +131,33 @@ body{
     margin: 5px;
     border-radius: 5px;
 }
+
+/* =========================== Contact =========================== */
+
+#contact{
+    background-color: rgb(106, 250, 137);
+}
+
+.contactLinks{
+    text-decoration: none;
+    color: #0e0e0e;
+    
+}
+
+.contactInfo{
+    margin-bottom: 20px;
+}
+
+.contactLinks button{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+
+
 
 
 /* ===================== Responsive ===================== */
