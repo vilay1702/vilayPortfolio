@@ -15,10 +15,11 @@ body{
     /* width: 90%; */
     margin: auto;
     min-height: 100vh;
+    height: max-content;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 0px 30px;
+    padding: 30px;
 
 }
 
